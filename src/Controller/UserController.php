@@ -39,7 +39,7 @@ class UserController extends AbstractController
         $this->manager->flush();
 
         return new JsonResponse([
-            'Message' => 'Enregostrement User Ok'
+            'Message' => 'Enregistrement User Ok'
         ]);
     }
 
