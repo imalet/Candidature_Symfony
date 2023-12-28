@@ -22,7 +22,7 @@ class UserController extends AbstractController
         $this->user = $user;
     }
 
-    #[Route('/storeUser', name: 'add_user', methods: ['POST'])]
+    #[Route('/api/storeUser', name: 'add_user', methods: ['POST'])]
     public function storeUser(Request $request): Response
     {
         // Recuperation des informations dans la requetes
